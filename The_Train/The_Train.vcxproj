@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18E35CBE-533E-4CDE-8FA5-169F8B72050F}</ProjectGuid>
+    <RootNamespace>The_Train</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\The_Train;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GLAUX.lib;GLU32.lib;glut.lib;OPENGL32.lib;glut32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3DTexture.cpp" />
+    <ClCompile Include="AccordionDoor.cpp" />
+    <ClCompile Include="AlexTrailer.cpp" />
+    <ClCompile Include="Barrel.cpp" />
+    <ClCompile Include="Books.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="car.cpp" />
+    <ClCompile Include="Chair.cpp" />
+    <ClCompile Include="CinemaPlotter.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="cubid.cpp" />
+    <ClCompile Include="Curtains.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
+    <ClCompile Include="Drawable.cpp" />
+    <ClCompile Include="DriverTrailer.cpp" />
+    <ClCompile Include="enviroment.cpp" />
+    <ClCompile Include="Flower.cpp" />
+    <ClCompile Include="Lamppost.cpp" />
+    <ClCompile Include="library.cpp" />
+    <ClCompile Include="Model_3DS.cpp" />
+    <ClCompile Include="passengerSeat.cpp" />
+    <ClCompile Include="PassengersTrailer.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Quad.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="StudyT.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="Trailer.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Vase.cpp" />
+    <ClCompile Include="WoodenBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DTexture.h" />
+    <ClInclude Include="AccordionDoor.h" />
+    <ClInclude Include="AlexTrailer.h" />
+    <ClInclude Include="Barrel.h" />
+    <ClInclude Include="Books.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="car.h" />
+    <ClInclude Include="Chair.h" />
+    <ClInclude Include="CinemaPlotter.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="cubid.h" />
+    <ClInclude Include="Curtains.h" />
+    <ClInclude Include="Cylinder.h" />
+    <ClInclude Include="Drawable.h" />
+    <ClInclude Include="DriverTrailer.h" />
+    <ClInclude Include="enviroment.h" />
+    <ClInclude Include="Flower.h" />
+    <ClInclude Include="Lamppost.h" />
+    <ClInclude Include="library.h" />
+    <ClInclude Include="Model_3DS.h" />
+    <ClInclude Include="passengerSeat.h" />
+    <ClInclude Include="PassengersTrailer.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Quad.h" />
+    <ClInclude Include="StudyT.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="Trailer.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Vase.h" />
+    <ClInclude Include="WoodenBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="6ara2.bmp" />
+    <Image Include="accordionDoor1.bmp" />
+    <Image Include="brownTexture.bmp" />
+    <Image Include="C:\Users\Aluffy\Desktop\ironTexture1.bmp" />
+    <Image Include="C:\Users\Aluffy\Desktop\ironTexture2.bmp" />
+    <Image Include="C:\Users\Aluffy\Desktop\ironTexture3.bmp" />
+    <Image Include="C:\Users\Aluffy\Desktop\MIX OPENGL PROJECTS\myClasses\Barrel\barrelTexture.bmp" />
+    <Image Include="C:\Users\Aluffy\Desktop\MIX OPENGL PROJECTS\myClasses\woodenBox\woodBoxTexture1.bmp" />
+    <Image Include="carside1.bmp" />
+    <Image Include="carwindow1.bmp" />
+    <Image Include="ceilingTexture.bmp" />
+    <Image Include="Earth.bmp" />
+    <Image Include="floor.bmp" />
+    <Image Include="glassTexture.bmp" />
+    <Image Include="grayWallTexture.bmp" />
+    <Image Include="metalTexure.bmp" />
+    <Image Include="photo.bmp" />
+    <Image Include="seatText1.bmp" />
+    <Image Include="skyboxtexture2Front.bmp" />
+    <Image Include="skyboxtexture2Left.bmp" />
+    <Image Include="skyboxtexture2Top.bmp" />
+    <Image Include="skyboxtextureBack2.bmp" />
+    <Image Include="skyboxtextureRight2.bmp" />
+    <Image Include="textures\flower_disk_florets.bmp" />
+    <Image Include="textures\flower_petal.bmp" />
+    <Image Include="textures\flower_stem.bmp" />
+    <Image Include="textures\photo.bmp" />
+    <Image Include="textures\skyboxes\groundDayTexture.bmp" />
+    <Image Include="textures\skyboxes\side1DayTexture.bmp" />
+    <Image Include="textures\skyboxes\side1SkyBoxTexture.bmp" />
+    <Image Include="textures\skyboxes\side2DayTexture.bmp" />
+    <Image Include="textures\skyboxes\side2NightTexture.bmp" />
+    <Image Include="textures\skyboxes\side2SkyBoxTexture.bmp" />
+    <Image Include="textures\skyboxes\side3DayTexture.bmp" />
+    <Image Include="textures\skyboxes\side3SkyBoxTexture.bmp" />
+    <Image Include="textures\skyboxes\side3SkyBoxTexture.jpg" />
+    <Image Include="textures\skyboxes\side4DayTexture.bmp" />
+    <Image Include="textures\skyboxes\side4SkyBoxTexture.bmp" />
+    <Image Include="textures\skyboxes\skyDayTexture.bmp" />
+    <Image Include="textures\skyboxes\upSkyBoxTexture.bmp" />
+    <Image Include="textureTrainFloor.bmp" />
+    <Image Include="tier4.bmp" />
+    <Image Include="try.bmp" />
+    <Image Include="wall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\doormove.wav" />
+    <Media Include="sounds\pl_dirt1.wav" />
+    <Media Include="sounds\pl_dirt2.wav" />
+    <Media Include="sounds\trainSoundEffect.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

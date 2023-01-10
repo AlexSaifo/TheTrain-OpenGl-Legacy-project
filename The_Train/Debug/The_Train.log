@@ -1,0 +1,65 @@
+﻿Build started 1/5/2023 2:50:39 AM.
+     1>Project "C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\The_Train\The_Train.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\The_Train" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(128): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(139): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(151): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(163): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(174): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(185): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(197): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(208): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(220): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(232): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(243): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(254): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(668): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(674): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(691): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(698): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(729): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(751): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(765): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\aluffy\desktop\the_train newe backup copy\the_train\the_train\source.cpp(808): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\Debug\The_Train.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib glut.lib OPENGL32.lib glut32.lib Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\Debug\The_Train.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\Debug\The_Train.lib" /MACHINE:X86 Debug\3DTexture.obj
+         Debug\AccordionDoor.obj
+         Debug\AlexTrailer.obj
+         Debug\Barrel.obj
+         Debug\Books.obj
+         Debug\camera.obj
+         Debug\car.obj
+         Debug\Chair.obj
+         Debug\CinemaPlotter.obj
+         Debug\Circle.obj
+         Debug\color.obj
+         Debug\cubid.obj
+         Debug\Curtains.obj
+         Debug\Cylinder.obj
+         Debug\Drawable.obj
+         Debug\DriverTrailer.obj
+         Debug\enviroment.obj
+         Debug\Flower.obj
+         Debug\Lamppost.obj
+         Debug\library.obj
+         Debug\Model_3DS.obj
+         Debug\passengerSeat.obj
+         Debug\PassengersTrailer.obj
+         Debug\Point.obj
+         Debug\Quad.obj
+         Debug\Source.obj
+         Debug\StudyT.obj
+         Debug\Table.obj
+         Debug\texture.obj
+         Debug\Trailer.obj
+         Debug\Triangle.obj
+         Debug\Vase.obj
+         Debug\WoodenBox.obj
+         The_Train.vcxproj -> C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\Debug\The_Train.exe
+     1>Done Building Project "C:\Users\Aluffy\Desktop\The_Train newE Backup Copy\The_Train\The_Train\The_Train.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56
